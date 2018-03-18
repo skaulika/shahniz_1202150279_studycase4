@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    tools:context="com.shahniz.android.shahniz_1202150279_studycase4.PencariGambar">
+
+    <TextView
+        android:id= "@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cari Gambar"
+        android:layout_gravity="center"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/urlgambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Masukkan URL gambar"/>
+
+    <Button
+        android:id="@+id/buttoncari"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Klik untuk mencari gambar"
+        android:onClick="carigambar"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAllCaps="false" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

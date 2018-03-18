@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SHAHNIZ_1202150279_studycase4</string>
+    <string-array name="listnama">
+        <item>Shahniz</item>
+        <item>Ayu</item>
+        <item>Elviera</item>
+        <item>Nadya</item>
+        <item>Syanaz</item>
+        <item>Intan</item>
+        <item>Raras</item>
+        <item>Lenni</item>
+        <item>Mia</item>
+        <item>Tobey</item>
+        <item>Rena</item>
+        <item>Riko</item>
+    </string-array>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shahniz.android.shahniz_1202150279_studycase4.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:text="Study Case Modul 4" />
+
+    <Button
+        android:id="@+id/buttonnama"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="List Nama Mahasiswa"
+        android:textSize="16sp"
+        android:onClick="ListNama"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttongambar"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Pencari Gambar"
+        android:textSize="16sp"
+        android:onClick="PencariGambar"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:textAllCaps="false" />
+</LinearLayout>
